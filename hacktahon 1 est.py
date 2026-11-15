@@ -1,13 +1,12 @@
 import pygame
 
 """
- This example shows having multiple balls bouncing around the screen at the
- same time. You can hit the space bar to spawn more balls.
- 
- Sample Python/Pygame Programs
- Simpson College Computer Science
- http://programarcadegames.com/
- http://simpson.edu/computer-science/
+This game shows having multiple balls bouncing around the screen at the
+same time. You can hit the space bar to spawn more balls. Every time the 
+ball hits the wall, it creates a string that is tethered to it until it 
+is broken by the path of another ball. When all of the ball's strings are 
+broken, it is eliminated. 
+
 """
  
 import pygame
